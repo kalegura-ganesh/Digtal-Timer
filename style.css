@@ -1,0 +1,80 @@
+body{
+	background:url(study.jpg);
+	height: 97vh;
+	background-size: cover;
+	background-position: center;
+  display: flex;/*
+  justify-content: center;
+  align-items: center;*/
+
+}
+#timer{
+/*  font-family: 'Courier New', monospace;*/
+    font-family: Garamond, serif;
+
+
+}
+#main{
+  font-family: Garamond, serif;
+
+}
+.container{
+	width: 30%;
+	background: white;
+	height: 250px;
+	border-radius: 20px;
+	box-shadow: 0 0 3px black;
+	 position: absolute;
+  bottom: 100px;
+  right: 100px;
+
+	
+}
+#timer{
+	  text-align: center;
+	  padding: 35px;
+	  margin: 0px auto;
+	  font-size: 72px;
+	  width: 100%;
+}
+.buttons{
+	text-align: center;
+	padding-left: 40px;
+}
+button{
+	margin: 0px 10px;
+	border:none;
+}
+button i{
+	padding: 10px;
+	font-size: 32px;
+	color: white;
+}
+#play{
+      background: green;
+
+}
+#reset{
+	background: red;
+
+}
+#pause{
+	background: orange;
+}
+#main{
+	position: absolute;
+	bottom:400px;
+	right: 80px;
+}
+#main h1{
+	font-size: 40px;
+/*  font-family: "Protest Riot", sans-serif;*/
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  border-bottom: 4px solid rgb(0, 0, 0, .4);
+  border-radius: 10px;
+/*  box-shadow: -1px 0 5px black;*/
+  padding: 5px;
+}
+
